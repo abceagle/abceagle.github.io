@@ -59,12 +59,12 @@ li:not(:last-child) {
 }
 
 p {
-  color: #7a7288;
-  font-family:Noto Sans TC,sans-serif,sans-serif;
-  font-size: 1.6em;
-  font-weight: 300;
-  line-height: 1.5em;
-
+  color: ＃333333;
+  font-family:Helvetica, 'PingFang TC', "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.8em;
+  padding:10px 10px 10px 10px;
 }
 
 .homepage_title {
@@ -169,18 +169,19 @@ polaroid {
 
 
 blockquote{
-  border-left: 1px solid #bbbab3;
-  color: #212522;
-  font-style: italic;
-
+  border-left: 1px solid #ff6600;
+ 
+  color: #82B746;
+  
+  background-color: #FAFFF4;
   margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1.4px solid #585555;
+  padding: 1rem 3rem 1 2rem;
+  border-left: 2px solid #82B746;
 
   display: block;
-  font-size: 0.99rem !important;
+  font-size: 1.4rem !important;
   /*color: #515b54;*/
-  color: #9995be;
+  color: #006600;
 
 
 }
@@ -207,14 +208,14 @@ blockquote cite:before { content: "\2014 \0020"; }
   color: #0d81fe;
 }
 
-
 .tbh2{
   
-  font-family:'Libre Baskerville', serif;;
+  color: ＃ff6600;
+  font-family:Helvetica, 'PingFang TC', "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
   font-weight: 700;
   font-style: bold;
-  line-height: 1.4;
-  
+  line-height: 1.8em;
+  padding:10px 10px 10px 10px;
   
 }
 
@@ -230,15 +231,23 @@ blockquote cite:before { content: "\2014 \0020"; }
 
 .tbh4{
   
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 350;
-  font-style: normal;
-  line-height: 1.4;
-  
+  color: ＃ff6600;
+  font-family:Helvetica, 'PingFang TC', "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 1.8em;
+  padding:10px 10px 10px 10px;
   
 }
 
-
+h4 {
+	color: #ff6600;
+  font-size: 22px;
+	font-weight: 700;
+  padding-top: 50px;
+  line-height: 1em;
+  width:30%
+}
 
 
 .bg-tbbg{
